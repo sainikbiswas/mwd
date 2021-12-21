@@ -19,13 +19,16 @@
 	src: url('./fonts/Roboto-Bold.ttf') format('truetype');
 }
 
+/* Apply Lora to Paragraphs */
 body p {
 	font-family: 'Lora';
-	font-size: 1.4em;
+	font-size: 1.4rem;
 }
 
+/* Apply Roboto to Headers */
 body h1,
 	 h2,
 	 h3 {
 	font-family: 'Roboto Bold';
+	font-size: 3rem;
 }
