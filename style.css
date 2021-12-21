@@ -1,0 +1,31 @@
+/* Fonts */
+
+/* Load Lora Font */
+
+@font-face {
+	font-family: 'Lora';
+	src: url('./fonts/Lora-Regular.ttf') format('truetype');
+}
+
+/* Load Roboto Font */
+
+@font-face {
+	font-family: 'Roboto Medium';
+	src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+body p {
+	font-family: 'Lora';
+	font-size: 1.4em;
+}
+
+body h1,
+	 h2,
+	 h3 {
+	font-family: 'Roboto Bold';
+}
